@@ -19,6 +19,7 @@ public class LoginController {
 	public String loginForm() {
 		return "loginForm";
 	}
+	
 	@GetMapping("/logout")
 	public String logout(HttpSession session) {
 		// 1. 세션을 종료
